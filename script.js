@@ -68,8 +68,7 @@ function solicitarPermissaoNotificacao() {
   }
 }
 
-// --- Tela | Home ---
-if (window.location.pathname.includes('index.html')) {
+
   solicitarPermissaoNotificacao();
   
   let usuario = 'user1';
@@ -154,4 +153,3 @@ if (window.location.pathname.includes('index.html')) {
   }
 
   escutarMensagens();
-}
